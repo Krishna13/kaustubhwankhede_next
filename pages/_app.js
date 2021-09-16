@@ -3,7 +3,7 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component }) {
   return (
     <div className="font-body">
       <Head>
