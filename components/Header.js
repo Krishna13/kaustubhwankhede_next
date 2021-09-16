@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import Link from 'next/link'
-function Header() {
+function Header(){
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <>
